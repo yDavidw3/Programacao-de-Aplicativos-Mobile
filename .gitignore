@@ -1,0 +1,39 @@
+# Ignora a pasta pesada de dependências em qualquer subpasta de aula
+**/node_modules/
+
+# Ignora os arquivos pesados que travam o limite de 100MB do GitHub
+**/*.zip
+**/*.rar
+
+# Ignora segredos e senhas em qualquer subpasta
+**/.env
+**/.env*.local
+
+# Ignora pastas geradas pelo Expo automaticamente
+**/.expo/
+**/dist/
+**/web-build/
+**/expo-env.d.ts
+
+# =========================================================================
+# REGRAS DO METRO, NATIVE E SISTEMA OPERACIONAL
+# =========================================================================
+# Metro e Debugs
+**/.metro-health-check*
+**/npm-debug.*
+**/yarn-debug.*
+**/yarn-error.*
+
+# Configurações locais geradas por compiladores Android/iOS
+**/ios/
+**/android/
+**/.kotlin/
+**/*.jks
+**/*.p8
+**/*.p12
+**/*.key
+**/*.mobileprovision
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
